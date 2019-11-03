@@ -1,0 +1,60 @@
+/* regole generali di pagina */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole contenitore generale */
+
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #1e5799, #2989d8, #1e5799, #207cca, #207cca,#7db9e8) 0 0 / 1000% no-repeat;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* regole contenitori della stampa in pagina */
+.messaggio {
+    width: 80%;
+    height: 200px;
+    margin-bottom: 150px;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 4px #000;
+    text-shadow: 2px 2px 4px #000;
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+/* inserito un piccolo margine al contenitore inferiore */
+#solo-6{
+    margin-bottom: 10px;
+}
+
+
+/* stile del pulsante per generare i numeri casuali */
+input{
+    padding: 20px;
+    width: 300px;
+    height: 100px;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 4px #000;
+    border-radius: 10px;
+    background: linear-gradient(45deg, black, grey, lightgrey) 0 0 / 1000% no-repeat;
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 150px;
+}
+
+
+input:hover{
+    cursor: pointer;
+}
