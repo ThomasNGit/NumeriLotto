@@ -63,6 +63,17 @@ input:hover{
 /* mediaqueries */
 
 @media screen and (max-width: 480px){
+
+    .wrapper{
+        height: 100vh;
+        width: 100vh;
+        background: linear-gradient(45deg, #1e5799, #2989d8, #1e5799, #207cca, #207cca,#7db9e8) 0 0 / 1000% no-repeat;
+        display: flex;
+        flex-flow: wrap column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .messaggio {
         width: 300px;
         height: 200px;
